@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import SimpleStorageContract from "./contracts/SimpleStorage.json";
 import getWeb3 from "./getWeb3";
+// import Button from 'react-bootstrap/Button';
 
 import "./App.css";
 
@@ -65,6 +66,10 @@ class App extends Component {
           Try changing the value stored on <strong>line 42</strong> of App.js.
         </p>
         <div>The stored value is: {this.state.storageValue}</div>
+{/* 
+        <Button variant="primary" size="lg" active>
+    Primary button
+  </Button>{' '} */}
 
       </div>
     );
